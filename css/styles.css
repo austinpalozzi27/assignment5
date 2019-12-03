@@ -1,0 +1,100 @@
+h1,
+h2 {
+    color: dodgerblue;
+}
+
+.red-span {
+    color: red;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+}
+
+.diff-font {
+    font-family: fantasy;
+}
+
+header nav a {
+    color: cornflowerblue;
+}
+
+body {
+    color: darkcyan
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.p {
+    font-size: 20px
+}
+
+.ul {
+    font-size: 25px
+}
+
+.ol {
+    font-size: 25px
+}
+
+ul li {
+    text-decoration: underline
+}
+
+ol li {
+    text-decoration: underline
+}
+
+ul li {
+    text-decoration-color: aqua
+}
+
+ol li {
+    text-decoration-color: aqua
+}
+
+@media screen and (max-width: 30rem) {
+    h1 {
+        color: aqua
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:40rem) {
+
+    .container,
+    header,
+    main,
+    footer,
+    .breedcontainer
+    {
+        flex-direction: column;
+    }
+}
+
+header nav {
+    flex: 1;
+}
+
+
+.breedcontainer {
+    display: flex;
+}
